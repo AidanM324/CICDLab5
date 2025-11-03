@@ -25,5 +25,5 @@ services:
     restart: unless-stopped
 
 
-  volumes:
-    postgres-data: {}
+volumes:
+  postgres-data: {}
